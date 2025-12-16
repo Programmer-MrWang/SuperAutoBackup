@@ -1,0 +1,103 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ui="using:FluentAvalonia.UI.Controls"
+             xmlns:controls="using:ClassIsland.Core.Controls"
+             mc:Ignorable="d"
+             x:Class="SuperAutoBackup.SuperAutoBackupSettingsPage"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="15">
+            <!-- 标题 -->
+            <TextBlock Text="高级备份" FontSize="24" FontWeight="Bold" Margin="0,0,0,10"/>
+            
+            <!-- 自动备份开关 -->
+            <ui:SettingsExpander Header="自动备份"
+                     Description="开启后在ClassIsland启动时自动备份">
+                <ToggleSwitch IsChecked="{Binding Settings.IsAutoBackupEnabled}" />
+            </ui:SettingsExpander>
+            
+            <!-- 自动备份数量上限（原生布局） -->
+            <Border Background="{DynamicResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{DynamicResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
+                    CornerRadius="4"
+                    Padding="12"
+                    Margin="0,0,0,8">
+                <Grid ColumnDefinitions="*,Auto">
+                    <StackPanel Grid.Column="0" Spacing="4">
+                        <TextBlock Text="自动备份数量上限" 
+                                   FontWeight="SemiBold" 
+                                   Foreground="{DynamicResource TextFillColorPrimaryBrush}"/>
+                        <TextBlock Text="设置最大备份文件数量，超过此数量将删除最早备份"
+                                   FontSize="12"
+                                   TextWrapping="Wrap"
+                                   Foreground="{DynamicResource TextFillColorSecondaryBrush}"/>
+                    </StackPanel>
+                    
+                    <NumericUpDown Grid.Column="1" 
+                                   Value="{Binding Settings.BackupCountLimit}"
+                                   Minimum="1" 
+                                   Maximum="100"
+                                   Increment="1"
+                                   FormatString="N0"
+                                   Width="100"/>
+                </Grid>
+            </Border>
+
+            <!-- 生成日志开关 -->
+            <ui:SettingsExpander Header="生成日志"
+                                 Description="每次备份时在备份文件夹生成日志文件">
+                <ToggleSwitch IsChecked="{Binding Settings.IsLogGenerationEnabled}"/>
+            </ui:SettingsExpander>
+
+            <!-- 备份文件夹路径 -->
+            <ui:SettingsExpander Header="备份文件夹路径"
+                                 Description="选择备份文件的保存位置">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBox Text="{Binding Settings.BackupFolderPath}"
+                             Width="300" IsReadOnly="True"/>
+                    <Button Content="选择文件夹" Click="SelectBackupFolder_Click"/>
+                </StackPanel>
+            </ui:SettingsExpander>
+
+            <!-- ✅ 备份进度条（仅备份时显示） -->
+            <Border IsVisible="{Binding Settings.IsBackupInProgress}"
+                    Background="{DynamicResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{DynamicResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1"
+                    CornerRadius="4"
+                    Padding="12"
+                    Margin="0,0,0,8">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="正在备份..." FontWeight="SemiBold"/>
+                    <ProgressBar Value="{Binding Settings.BackupProgress}"
+             Minimum="0" Maximum="100"
+             Height="20"/>
+<TextBlock Text="{Binding Settings.BackupProgress, StringFormat={}{0:0}%}"
+           HorizontalAlignment="Center"
+           Margin="0,4,0,0"/>
+                </StackPanel>
+            </Border>
+            
+            <!-- 操作按钮 -->
+            <StackPanel Margin="0,20,0,0" Spacing="10">
+                <Button Name="ManualBackupButton" 
+                       Content="手动备份" 
+                       Width="150" 
+                       Click="ManualBackup_Click"/>
+                <Button Name="OpenBackupFolderButton" 
+                       Content="查看备份文件夹" 
+                       Width="150" 
+                       Click="OpenBackupFolder_Click"/>
+            </StackPanel>
+            
+            <!-- 版权信息 -->
+            <TextBlock Text="© @Programmer-MrWang." 
+                      HorizontalAlignment="Center" 
+                      Margin="0,30,0,0"
+                      Foreground="Gray"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

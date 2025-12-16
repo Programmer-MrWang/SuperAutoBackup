@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ClassIsland 插件": {
+      "commandName": "Executable",
+      "executablePath": "D:\\ci\\Newest\\ClassIsland.exe",
+      "commandLineArgs": "-epp $(TargetDir)",
+      "workingDirectory": "D:\\ci\\Newest"
+    }
+  }
+}
