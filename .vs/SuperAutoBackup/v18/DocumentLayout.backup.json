@@ -7,52 +7,24 @@
       "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\superautobackup.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:superautobackup.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\license.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:license.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\manifest.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:manifest.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\superautobackupsettingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:superautobackupsettingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\superautobackupsettingspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:superautobackupsettingspage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\backuphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:backuphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\autobackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:autobackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\superautobackupsettingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:superautobackupsettingspage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\configdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:configdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\superautobackup.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:superautobackup.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|h:\\github release project\\superautobackup 2\\backuphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F2F7FE-410A-9C54-BDF7-33154229EE3A}|SuperAutoBackup.csproj|solutionrelative:backuphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,61 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LICENSE.txt",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\LICENSE.txt",
-              "RelativeDocumentMoniker": "LICENSE.txt",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\LICENSE.txt",
-              "RelativeToolTip": "LICENSE.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-16T03:02:39.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SuperAutoBackup.csproj",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackup.csproj",
-              "RelativeDocumentMoniker": "SuperAutoBackup.csproj",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackup.csproj",
-              "RelativeToolTip": "SuperAutoBackup.csproj",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-14T14:50:06.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AutoBackupService.cs",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\AutoBackupService.cs",
-              "RelativeDocumentMoniker": "AutoBackupService.cs",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\AutoBackupService.cs",
-              "RelativeToolTip": "AutoBackupService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAYwDYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:38:39.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "README.md [\u9884\u89C8]",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\README.md [\u9884\u89C8]",
-              "RelativeToolTip": "README.md [\u9884\u89C8]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-16T03:03:16.391Z",
-              "EditorCaption": " [\u9884\u89C8]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -124,107 +54,76 @@
               "Title": "README.md",
               "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvyMAAAAGAAAAAAAAAA==",
+              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\README.md*",
+              "RelativeToolTip": "README.md*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-16T03:03:13.647Z",
+              "WhenOpened": "2026-02-17T05:26:52.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Plugin.cs",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\Plugin.cs",
-              "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\Plugin.cs",
-              "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SuperAutoBackupSettingsPage.axaml.cs",
+              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml.cs",
+              "RelativeDocumentMoniker": "SuperAutoBackupSettingsPage.axaml.cs",
+              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml.cs",
+              "RelativeToolTip": "SuperAutoBackupSettingsPage.axaml.cs",
+              "ViewState": "AgIAACAAAAAAWQPTxHEmwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T14:55:58.255Z"
+              "WhenOpened": "2026-02-17T04:22:58.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BackupHelper.cs",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\BackupHelper.cs",
-              "RelativeDocumentMoniker": "BackupHelper.cs",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\BackupHelper.cs",
-              "RelativeToolTip": "BackupHelper.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T03:57:42.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "SuperAutoBackupSettingsPage.axaml",
               "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml",
               "RelativeDocumentMoniker": "SuperAutoBackupSettingsPage.axaml",
               "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml",
               "RelativeToolTip": "SuperAutoBackupSettingsPage.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-15T15:07:46.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "manifest.yml",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\manifest.yml",
-              "RelativeDocumentMoniker": "manifest.yml",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\manifest.yml",
-              "RelativeToolTip": "manifest.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-12-15T03:36:52.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SuperAutoBackupSettingsPage.axaml.cs",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml.cs",
-              "RelativeDocumentMoniker": "SuperAutoBackupSettingsPage.axaml.cs",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackupSettingsPage.axaml.cs",
-              "RelativeToolTip": "SuperAutoBackupSettingsPage.axaml.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:23:38.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-15T03:14:45.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SuperAutoBackup",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackup.csproj",
-              "RelativeDocumentMoniker": "SuperAutoBackup.csproj",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\SuperAutoBackup.csproj",
-              "RelativeToolTip": "SuperAutoBackup.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-15T03:13:25.127Z",
+              "WhenOpened": "2026-02-17T04:22:36.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\Settings.cs",
-              "RelativeDocumentMoniker": "Settings.cs",
-              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\Settings.cs",
-              "RelativeToolTip": "Settings.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T15:47:51.128Z"
+              "WhenOpened": "2025-12-14T14:55:58.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackupHelper.cs",
+              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\BackupHelper.cs",
+              "RelativeDocumentMoniker": "BackupHelper.cs",
+              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\BackupHelper.cs",
+              "RelativeToolTip": "BackupHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:23:12.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigData.cs",
+              "DocumentMoniker": "H:\\Github Release Project\\SuperAutoBackup 2\\ConfigData.cs",
+              "RelativeDocumentMoniker": "ConfigData.cs",
+              "ToolTip": "H:\\Github Release Project\\SuperAutoBackup 2\\ConfigData.cs",
+              "RelativeToolTip": "ConfigData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:21:56.406Z",
+              "EditorCaption": ""
             }
           ]
         }
