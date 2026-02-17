@@ -1,10 +1,13 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
-using ClassIsland.Core;
 using ClassIsland.Core.Abstractions.Controls;
 using ClassIsland.Core.Attributes;
-using FluentAvalonia.UI.Controls;
+using ClassIsland.Core.Helpers.UI;
+using ClassIsland.Core.Models.UI;
+using CommunityToolkit.Mvvm.ComponentModel;
+using SuperAutoBackup.ConfigHandlers;
+using SuperAutoBackup.Shared;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -13,107 +16,99 @@ using System.Threading.Tasks;
 
 namespace SuperAutoBackup;
 
-[SettingsPageInfo("superAutoBackup", "高级备份", "\uef5d", "\uef5c")]
+[HidePageTitle]
+[SettingsPageInfo("superAutoBackup.settings", "SuperAutoBackup 设置", "\uE5B7", "\uE5B7")]
 public partial class SuperAutoBackupSettingsPage : SettingsPageBase
 {
-    public Settings Settings { get; }
+    public SuperAutoBackupSettingsViewModel ViewModel { get; }
 
-    public SuperAutoBackupSettingsPage(Settings settings)
+    public SuperAutoBackupSettingsPage()
     {
-        Settings = settings;
+        ViewModel = new SuperAutoBackupSettingsViewModel();
         DataContext = this;
         InitializeComponent();
     }
 
     private async void ManualBackup_Click(object sender, RoutedEventArgs e)
     {
-        var button = sender as Button;
+        var button = (Button)sender;
         button.IsEnabled = false;
-
-        // ✅ 关键修复：提前获取 TopLevel，避免异步操作后丢失上下文
-        var topLevel = TopLevel.GetTopLevel(this);
-        if (topLevel == null)
-        {
-            button.IsEnabled = true;
-            return;
-        }
 
         try
         {
-            Settings.IsBackupInProgress = true;
-            Settings.BackupProgress = 0;
+            ViewModel.Config.IsBackupInProgress = true;
+            ViewModel.Config.BackupProgress = 0;
 
-            // ✅ 创建进度报告器
             var progress = new Progress<double>(value =>
-            {
-                Settings.BackupProgress = value;
-            });
+                ViewModel.Config.BackupProgress = value);
 
-            // ✅ 在后台线程执行，并传递进度
             await Task.Run(async () =>
             {
-                await BackupHelper.CreateBackup(Settings.BackupFolderPath, Settings.IsLogGenerationEnabled, progress);
-                BackupHelper.CleanOldBackups(Settings.BackupFolderPath, Settings.BackupCountLimit);
+                await BackupHelper.CreateBackup(
+                    ViewModel.Config.BackupFolderPath,
+                    ViewModel.Config.IsLogGenerationEnabled,
+                    progress);
+
+                BackupHelper.CleanOldBackups(
+                    ViewModel.Config.BackupFolderPath,
+                    ViewModel.Config.BackupCountLimit);
             });
 
-            // ✅ 修复：使用带 TopLevel 参数的 ShowAsync
-            await new ContentDialog
-            {
-                Title = "备份成功",
-                Content = "备份已完成！",
-                PrimaryButtonText = "确定"
-            }.ShowAsync(topLevel);  // 传入 topLevel 参数
+            this.ShowSuccessToast("备份已完成！");
         }
         catch (Exception ex)
         {
-            // ✅ 修复：使用带 TopLevel 参数的 ShowAsync
-            await new ContentDialog
-            {
-                Title = "备份失败",
-                Content = ex.Message,
-                PrimaryButtonText = "确定"
-            }.ShowAsync(topLevel);  // 传入 topLevel 参数
+            this.ShowErrorToast("备份失败", ex);
         }
         finally
         {
-            Settings.IsBackupInProgress = false;
+            ViewModel.Config.IsBackupInProgress = false;
             button.IsEnabled = true;
         }
     }
 
     private void OpenBackupFolder_Click(object sender, RoutedEventArgs e)
     {
-        if (Directory.Exists(Settings.BackupFolderPath))
+        var path = ViewModel.Config.BackupFolderPath;
+
+        if (!Directory.Exists(path))
+            Directory.CreateDirectory(path);
+
+        Process.Start(new ProcessStartInfo
         {
-            Process.Start(new ProcessStartInfo { FileName = Settings.BackupFolderPath, UseShellExecute = true, Verb = "open" });
-        }
-        else
-        {
-            Directory.CreateDirectory(Settings.BackupFolderPath);
-            Process.Start(new ProcessStartInfo { FileName = Settings.BackupFolderPath, UseShellExecute = true, Verb = "open" });
-        }
+            FileName = path,
+            UseShellExecute = true
+        });
     }
 
     private async void SelectBackupFolder_Click(object sender, RoutedEventArgs e)
     {
-        if (!Directory.Exists(Settings.BackupFolderPath))
-            Directory.CreateDirectory(Settings.BackupFolderPath);
-
         var storage = TopLevel.GetTopLevel(this)?.StorageProvider;
         if (storage is null) return;
 
         var options = new FolderPickerOpenOptions
         {
             Title = "选择备份文件夹",
-            SuggestedStartLocation = await storage.TryGetFolderFromPathAsync(Settings.BackupFolderPath),
+            SuggestedStartLocation = await storage.TryGetFolderFromPathAsync(
+                ViewModel.Config.BackupFolderPath),
             AllowMultiple = false
         };
 
         var result = await storage.OpenFolderPickerAsync(options);
         var folder = result.FirstOrDefault();
+
         if (folder is not null)
         {
-            Settings.BackupFolderPath = folder.Path.LocalPath;
+            ViewModel.Config.BackupFolderPath = folder.Path.LocalPath;
         }
     }
+}
+
+public partial class SuperAutoBackupSettingsViewModel : ObservableObject
+{
+    [ObservableProperty]
+    private ConfigData _config = GlobalConstants.Config!.Data;
+
+    [ObservableProperty]
+    private string _pluginVersion = GlobalConstants.Information.PluginVersion;
 }
